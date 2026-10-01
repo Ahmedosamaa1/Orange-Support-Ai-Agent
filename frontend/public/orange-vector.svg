@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Official Orange Brand: Crisp Flat Square with no bent/curved corners -->
+  <rect width="100" height="100" fill="#FF7900"/>
+  <text x="10" y="86" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="bold" font-size="26" fill="#FFFFFF" letter-spacing="-0.8">orange<tspan font-size="11" font-weight="bold" dy="-10">™</tspan></text>
+</svg>

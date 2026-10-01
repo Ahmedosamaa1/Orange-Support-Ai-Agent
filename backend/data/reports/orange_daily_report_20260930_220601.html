@@ -1,0 +1,70 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Orange Smart Support - Daily Report</title>
+            <style>
+                body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f8fafc; color: #1e293b; padding: 30px; }
+                .container { max-width: 800px; margin: 0 auto; background: white; border-radius: 12px; padding: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); }
+                .header { border-bottom: 2px solid #FF7900; padding-bottom: 16px; margin-bottom: 24px; display: flex; justify-content: space-between; align-items: center; }
+                h1 { color: #FF7900; margin: 0; font-size: 24px; }
+                .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 30px; }
+                .kpi-card { background: #fff8f0; border: 1px solid #ffd8a8; border-radius: 8px; padding: 16px; text-align: center; }
+                .kpi-val { font-size: 26px; font-weight: 700; color: #d9480f; margin-top: 4px; }
+                .kpi-lbl { font-size: 12px; text-transform: uppercase; color: #868e96; letter-spacing: 0.5px; }
+                table { width: 100%; border-collapse: collapse; margin-top: 12px; margin-bottom: 24px; font-size: 14px; }
+                th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid #e2e8f0; }
+                th { background: #f1f5f9; font-weight: 600; color: #475569; }
+                .badge { padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+                .badge-esc { background: #fee2e2; color: #dc2626; }
+                .badge-ok { background: #dcfce7; color: #16a34a; }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <div class="header">
+                    <div>
+                        <h1>Orange Smart Support - Daily Report</h1>
+                        <p style="margin: 4px 0 0 0; color: #64748b; font-size: 13px;">Generated at 2026-09-30 22:06 UTC</p>
+                    </div>
+                </div>
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <div class="kpi-lbl">Total Tickets</div>
+                        <div class="kpi-val">94</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-lbl">Avg Latency</div>
+                        <div class="kpi-val">6223.0ms</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-lbl">Escalation Rate</div>
+                        <div class="kpi-val">14.9%</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-lbl">QA Pass Rate</div>
+                        <div class="kpi-val">97.9%</div>
+                    </div>
+                </div>
+
+                <h3>Tickets by Category</h3>
+                <table>
+                    <thead><tr><th>Category</th><th>Volume</th></tr></thead>
+                    <tbody>
+                        <tr><td>Billing</td><td><b>20</b></td></tr><tr><td>Other</td><td><b>22</b></td></tr><tr><td>Plan Inquiry</td><td><b>15</b></td></tr><tr><td>Service Request</td><td><b>12</b></td></tr><tr><td>Technical</td><td><b>25</b></td></tr>
+                    </tbody>
+                </table>
+
+                <h3>Recent Tickets</h3>
+                <table>
+                    <thead><tr><th>ID</th><th>Category</th><th>Priority</th><th>Escalated</th></tr></thead>
+                    <tbody>
+                        <tr><td>ORG-20260930</td><td>Service Request</td><td>CRITICAL</td><td><span class='badge badge-esc'>ESCALATED</span></td></tr><tr><td>ORG-20260930</td><td>Billing</td><td>LOW</td><td><span class='badge badge-ok'>NORMAL</span></td></tr><tr><td>ORG-20260930</td><td>Other</td><td>LOW</td><td><span class='badge badge-ok'>NORMAL</span></td></tr><tr><td>ORG-20260930</td><td>Billing</td><td>LOW</td><td><span class='badge badge-ok'>NORMAL</span></td></tr><tr><td>ORG-20260930</td><td>Other</td><td>LOW</td><td><span class='badge badge-ok'>NORMAL</span></td></tr><tr><td>ORG-20260930</td><td>Other</td><td>LOW</td><td><span class='badge badge-ok'>NORMAL</span></td></tr><tr><td>ORG-20260930</td><td>Other</td><td>LOW</td><td><span class='badge badge-ok'>NORMAL</span></td></tr><tr><td>ORG-20260930</td><td>Other</td><td>LOW</td><td><span class='badge badge-ok'>NORMAL</span></td></tr>
+                    </tbody>
+                </table>
+                <p style="font-size: 11px; color: #94a3b8; margin-top: 30px; text-align: center;">Demo project, not affiliated with Orange.</p>
+            </div>
+        </body>
+        </html>
+        
